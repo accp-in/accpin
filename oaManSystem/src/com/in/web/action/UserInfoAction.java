@@ -12,6 +12,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class UserInfoAction extends BaseAction {
 	private UserInfo userInfo;
+	//qin edit
 
 	private UserInfoService userInfoService;
 	
