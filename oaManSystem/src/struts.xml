@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="oa" extends="json-default">
+
+
+		<!-- 显示登录页面 -->
+		<action name="showLogin" class="userInfoAction" method="showLogin">
+			<result name="success">/WEB-INF//pages/login.jsp </result>
+		</action>
+		
+		<!-- 登录 -->
+		<action name="login" class="userInfoAction" method="login">
+			<result name="success">/WEB-INF//pages/loginsuccess.jsp </result>
+			<result name="input">/WEB-INF//pages/loginfail.jsp</result>
+		</action>
+		
+		<!--注销 -->
+		<action name="loginOut" class="userInfoAction" method="loginOut">
+			<result name="success">/WEB-INF//pages/login.jsp</result>
+		</action>
+		
+		<action name="listPageAction" class="userInfoAction" method="mapByPage">
+			<result name="success" type="json">
+				<param name="root">result</param>
+				<param name="excludeProperties">
+					rows\[\d+\]\.userInfo
+				</param>
+			</result>
+		</action>
+		
+		
+	</package>
+</struts>    

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="Addresslist" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Addresslist">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Attendance" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Attendance">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="AttendanceExplain" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.AttendanceExplain">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Calendarinfo" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Calendarinfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Department" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Department">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Duty" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Duty">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Emailattaches" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Emailattaches">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Emailrecinfo" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Emailrecinfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Emailsendinfo" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Emailsendinfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Leave" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Leave">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Messageinfo" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Messageinfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Notice" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Notice">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Planinfo" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Planinfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Reimburse" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Reimburse">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="UserInfo" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.UserInfo">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="Email" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.Email">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="EmailAtta" schema="dbo" catalog="oaManSystem"
+		class="com.in.entity.EmailAtta">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="MessageAtta" schema="dbo" catalog="oaManSystem"
+	class="com.in.entity.MessageAtta">
+	<primary-key>
+		<generator class="native"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

@@ -1,0 +1,7 @@
+/applicationContext.xml
+/com/
+/hibernate.cfg.xml
+/jbpm.cfg.xml
+/jbpm.mail.templates.xml
+/log4j.properties
+/struts.xml
